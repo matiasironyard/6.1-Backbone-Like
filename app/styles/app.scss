@@ -1,0 +1,33 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+.button-container{
+  margin: 0 auto;
+  margin-top: 150px;
+  width: 600px;
+  height: 300px;
+  border: 2px solid #000000;
+  .like{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+    height: 70px;
+    width: 200px;
+  }
+}
