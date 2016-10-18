@@ -15,12 +15,17 @@ $icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
 img {
   max-width: 100%;
 }
+
+body{
+  background-image: url("http://www.pixelstalk.net/wp-content/uploads/2016/06/Download-Facebook-Wallpaper-Free.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .button-container{
   margin: 0 auto;
-  margin-top: 150px;
+  margin-top: 300px;
   width: 600px;
   height: 300px;
-  border: 2px solid #000000;
   .like{
     position: relative;
     top: 50%;
